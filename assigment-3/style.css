@@ -1,0 +1,73 @@
+body {
+  padding-top: 80px;
+}
+
+.Hero{  
+  background-image: url(bgimg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.logo {
+  font-size: 2.5em;
+  margin-left: 0.4em;
+}
+
+.logo span{
+  color: rgb(81, 211, 81);
+}
+
+.phone{
+  height: 400px;
+  width: 600px;
+  margin-bottom: 200px !important;
+  position: relative;
+  left: 700px;
+  bottom: 400px;
+}
+
+.phone2{
+  height: 400px;
+  width: 700px;
+  margin-bottom: 200px !important;
+  position: relative;
+  left: 700px;
+  bottom: 300px;
+}
+
+.slow-smooth {
+  animation-duration: 6s;                 /* slow animation */
+  animation-timing-function: ease-in-out; /* smooth motion */
+}
+
+/* soften the bounce height */
+.animate__bounce {
+  --animate-bounce-height: 12px;
+}
+
+.mobiles{
+  
+  position: relative;
+bottom: 300px;
+ 
+}
+
+/* default navbar (on hero) */
+/* Navbar default */
+#mainNavbar {
+  transition: background-color 0.4s ease, box-shadow 0.4s ease;
+  z-index: 1000;
+}
+
+/* Navbar after scroll */
+.navbar-scrolled {
+  background-color: #000 !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+/* Keep text white */
+.navbar-scrolled .nav-link,
+.navbar-scrolled .navbar-brand {
+  color: #fff !important;
+}
